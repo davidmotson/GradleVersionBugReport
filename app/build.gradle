@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.0"
 
     defaultConfig {
-        applicationId "com.example.configcachetest"
+        applicationId "com.example.versionbugreport"
         minSdkVersion 29
         compileSdkVersion 30
         targetSdkVersion 30
