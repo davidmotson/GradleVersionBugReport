@@ -10,12 +10,12 @@ I maintain a gradle plugin which monitors strict versions and ensures that they 
 2. Run a build or sync
 3. Observe generated error messages:
 
-Observed in 6.3 and lower: 
-com.google.firebase:firebase-messaging-directboot:20.3.0 ->  com.google.firebase:firebase-messaging:[20.3.0]
+Observed in 6.3 and lower:   
+`com.google.firebase:firebase-messaging-directboot:20.3.0 ->  com.google.firebase:firebase-messaging:[20.3.0]`  
 This correctly captures the strict dependency firebase-messaging-directboot has on firebase-messaging.
 
-Observed in 6.4.1 and higher:
-com.google.firebase:firebase-messaging-directboot:20.3.0 ->  com.google.firebase:firebase-messaging:20.3.0
+Observed in 6.4.1 and higher:  
+`com.google.firebase:firebase-messaging-directboot:20.3.0 ->  com.google.firebase:firebase-messaging:20.3.0`  
 This incorrectly erases the strict dependency.
 
 ### Your Environment
